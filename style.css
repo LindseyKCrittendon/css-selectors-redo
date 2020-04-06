@@ -18,3 +18,47 @@
     background-color: red;
 } */
 
+/* NEW ACTIVITY! */
+
+
+
+/* Trying to get the header side by side using flex-box */
+
+/* targets this specific element rather than all image elements. */
+*{
+    font-family: arial;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 4em;
+    margin-left: 3em;
+}
+/* The carrot means only direct child elements (divs) will be selected rather than every div child anywhere inside the element. */
+section > div {
+    border: 1px solid gray;
+    width: 15vw;
+    margin: 1em;
+    padding: 1em;
+}
+
+div img {
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* will find any first child of a div in the html */
+div:first-child{
+background-color: cornflowerblue;
+}
+
+h3:first-child{
+    color: navy;
+}
