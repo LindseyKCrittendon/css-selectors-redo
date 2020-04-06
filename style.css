@@ -5,7 +5,7 @@
 5. Select the same footer element by its class of "blog-footer". This time give it a background-color of green.
 6. Select the same footer element by its id of "blog-footer-page-one". Give it a background-color of red. Which one wins? */
 
-footer {
+/* footer {
     background-color: blue;
     height: 20vh;
 }
@@ -16,4 +16,5 @@ footer {
 
 #blog-footer-page-one {
     background-color: red;
-}
+} */
+
