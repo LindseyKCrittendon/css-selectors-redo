@@ -47,7 +47,7 @@ section > div {
 }
 
 div img {
-    width: 100%;
+    width: 80%;
 }
 
 section{
@@ -62,3 +62,27 @@ background-color: cornflowerblue;
 h3:first-child{
     color: navy;
 }
+
+div:nth-child(3){
+    background-color: pink;
+}
+/* can also use (last-child) */
+div:nth-child(7){
+    background-color: violet;
+}
+
+/* SIBLING SELECTORS */
+
+.bill-container + div{
+    background-color: hotpink;
+}
+
+.bill-container ~ div{
+    background-color: lightgreen;
+}
+
+/* hover */
+div img:hover{
+    width: 100%;
+}
+
